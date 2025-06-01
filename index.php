@@ -16,17 +16,17 @@
     <title>0xy</title>
 
     <meta name="author" content="MagicTINTIN">
-    <meta name="description" content="CPOI is a service/browser extension that allows you to copy and paste text between your different devices.\nSimple and fast to use, no sign-up or account required.">
+    <meta name="description" content="0xy is an utility application suite">
 
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="CPOI">
-    <meta property="og:description" content="CPOI is a service/browser extension that allows you to copy and paste text between your different devices.\nSimple and fast to use, no sign-up or account required.">
+    <meta property="og:title" content="0xy">
+    <meta property="og:description" content="0xy is an utility application suite">
 
     <meta property="og:image" content="https://0xy.fr/images/favicon.png">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:alt" content="Logo of CPOI">
+    <meta property="og:image:alt" content="Logo of 0xy">
 
     <meta property="og:url" content="https://0xy.fr/" />
     <meta data-react-helmet="true" name="theme-color" content="#00f0ff" />
@@ -43,7 +43,7 @@
             "isFamilyFriendly": "true",
             "isPartOf": "https://0xy.fr/",
             "keywords": "0xy, Oxy",
-            "description": "0xy is an utilities application suite",
+            "description": "0xy is an utility application suite",
             "alternateName": "Copy Paste Over Internet"
         }
     </script>
@@ -70,7 +70,7 @@
             "name": "0xy",
             "applicationSuite": "0xy",
             "applicationCategory": "UtilitiesApplication",
-            "featureList": "0xy is an utilities application suite",
+            "featureList": "0xy is an utility application suite",
             "url": "https://0xy.fr/",
             "offers": {
                 "@type": "Offer",
