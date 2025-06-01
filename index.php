@@ -16,13 +16,13 @@
     <title>0xy</title>
 
     <meta name="author" content="MagicTINTIN">
-    <meta name="description" content="0xy is an utility application suite">
+    <meta name="description" content="0xy is a tool suite">
 
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="0xy">
-    <meta property="og:description" content="0xy is an utility application suite">
+    <meta property="og:description" content="0xy is a tool suite">
 
     <meta property="og:image" content="https://0xy.fr/images/favicon.png">
     <meta property="og:image:type" content="image/png">
@@ -43,7 +43,7 @@
             "isFamilyFriendly": "true",
             "isPartOf": "https://0xy.fr/",
             "keywords": "0xy, Oxy",
-            "description": "0xy is an utility application suite",
+            "description": "0xy is a tool suite",
             "alternateName": "Copy Paste Over Internet"
         }
     </script>
@@ -70,7 +70,7 @@
             "name": "0xy",
             "applicationSuite": "0xy",
             "applicationCategory": "UtilitiesApplication",
-            "featureList": "0xy is an utility application suite",
+            "featureList": "0xy is a tool suite",
             "url": "https://0xy.fr/",
             "offers": {
                 "@type": "Offer",
