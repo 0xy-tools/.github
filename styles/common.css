@@ -1,0 +1,70 @@
+header {
+    padding-top: 10vh;
+    width: 100vw;
+    padding-bottom: 10vh;
+}
+
+#hLogo {
+    width: 16vh;
+    height: 16vh;
+    margin-left: calc(50vw - 8vh);
+}
+
+#hTitle {
+    margin: 0;
+    text-align: center;
+    font-size: 4vh;
+}
+
+#hSubTitle {
+    margin: 0;
+    text-align: center;
+    font-size: 1.5vh;
+    font-weight: normal;
+    color: gray;
+}
+
+main {
+    width: 100vw;
+}
+
+h2 {
+    text-align: center;
+}
+article {
+    width: 80vw;
+    margin-left: 10vw;
+    background-color: var(--bg);
+    background: linear-gradient(90deg,var(--m1) 0%, var(--m2) 100%);
+    /* border: var(--m1) solid 3px; */
+    padding: 3px;
+    border-radius: min(4vh,4vw);
+}
+
+.articleContent {
+    background-color: var(--bg);
+    border-radius: min(calc(4vh - 3px),calc(4vw - 3px));
+    padding: calc(min(3vh,3vw) + 10px);
+    transition: all 0.2s;
+}
+
+article h3 {
+    margin-top: 0;
+    font-size: x-large;
+}
+
+article p {
+    font-size: medium;
+    font-weight: normal;
+    color: var(--w);
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+article:hover {
+    background: linear-gradient(90deg,#93f8ff 0%, #ff93d6 100%);
+}
+
+.articleContent:hover {
+    background: var(--bgh);
+}

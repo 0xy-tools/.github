@@ -4,6 +4,8 @@
     --w: white;
     --wt: #ffffff22;
     --wt2: rgba(255, 255, 255, 0.05);
+    --bg: #060606;
+    --bgh: #262626;
     --b: black;
     --bt: rgba(0, 0, 0, 0.7);
     --bt2: rgba(0, 0, 0, 0.6);
@@ -52,7 +54,7 @@
 a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: var(--w);
 }
 
 html,body {
@@ -82,4 +84,7 @@ body {
     background: linear-gradient(90deg,#00636b33 0%, rgba(6, 6, 6, 0.2) 30%, rgba(6, 6, 6, 0.2) 70%, #6b004133 100%);
     width:100vw;
     height:100vh;
+    /* transition: all 0.2s; */
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--w);
 }

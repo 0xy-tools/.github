@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/root.css">
-    <!-- <link rel="stylesheet" href="./styles/common.css">
-    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <!-- <link rel="stylesheet" href="./styles/menu.css">
     <script src="./lib/qrcode.min.js"></script> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -36,15 +36,14 @@
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "0xy",
-            "alternateName": ["oxy","Oxy"],
+            "alternateName": ["oxy", "Oxy"],
             "url": "https://0xy.fr/",
             "inLanguage": "en",
             "isAccessibleForFree": "true",
             "isFamilyFriendly": "true",
             "isPartOf": "https://0xy.fr/",
             "keywords": "0xy, Oxy",
-            "description": "0xy is a tool suite",
-            "alternateName": "Copy Paste Over Internet"
+            "description": "0xy is a tool suite"
         }
     </script>
     <script type="application/ld+json">
@@ -52,15 +51,14 @@
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "0xy",
-            "alternateName": ["oxy","Oxy"],
+            "alternateName": ["oxy", "Oxy"],
             "url": "https://0xy.fr/",
             "inLanguage": "fr",
             "isAccessibleForFree": "true",
             "isFamilyFriendly": "true",
             "isPartOf": "https://0xy.fr/",
             "keywords": "copier, coller, en ligne, appareils",
-            "description": "0xy est une suite logicielle d'utilitaires",
-            "alternateName": "Copy Paste Over Internet"
+            "description": "0xy est une suite logicielle d'utilitaires"
         }
     </script>
     <script type="application/ld+json">
@@ -81,6 +79,22 @@
 </head>
 
 <body>
+    <header class="unselectable">
+        <img id="hLogo" src="images/logo.png">
+        <h1 id="hTitle">0xy</h1>
+        <h3 id="hSubTitle">free tool suite</h3>
+    </header>
+    <main>
+        <h2>Available tools</h2>
+        <a href="https://cpoi.0xy.fr">
+            <article>
+                <div class="articleContent">
+                    <h3>CPOI</h3>
+                    <p>CPOI is a service/browser extension that allows you to copy and paste text between your different devices.</p>
+                </div>
+            </article>
+        </a>
+    </main>
 </body>
 
 </html>
