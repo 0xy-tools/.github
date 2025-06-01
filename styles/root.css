@@ -55,7 +55,14 @@ a {
     color: white;
 }
 
-.bg {
+html,body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+html {
     --bg-u1 : var(--bg-unit);
     --bg-u2 : calc(var(--bg-unit) * 2);
     --bg-u4 : calc(var(--bg-unit) * 4);
@@ -70,9 +77,9 @@ a {
     background-size: var(--bg-u4) var(--bg-u4);
 }
 
-html,body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #06060655;
+    background: linear-gradient(90deg,#00636b33 0%, rgba(6, 6, 6, 0.2) 30%, rgba(6, 6, 6, 0.2) 70%, #6b004133 100%);
+    width:100vw;
+    height:100vh;
 }

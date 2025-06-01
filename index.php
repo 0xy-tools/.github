@@ -80,7 +80,7 @@
     </script>
 </head>
 
-<body class="bg">
+<body>
 </body>
 
 </html>
