@@ -22,6 +22,7 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="0xy">
+    <meta property="og:site_name" content="0xy.fr">
     <meta property="og:description" content="0xy is a tool suite">
 
     <meta property="og:image" content="https://0xy.fr/images/favicon.png">
@@ -86,11 +87,19 @@
     </header>
     <main>
         <h2>Available tools</h2>
-        <a href="https://cpoi.0xy.fr">
+        <a href="https://cpoi.0xy.fr" class="articleLink">
             <article>
                 <div class="articleContent">
                     <h3>CPOI</h3>
                     <p>CPOI is a service/browser extension that allows you to copy and paste text between your different devices.</p>
+                </div>
+            </article>
+        </a>
+        <a href="https://gita.0xy.fr" class="articleLink">
+            <article>
+                <div class="articleContent">
+                    <h3>GITA</h3>
+                    <p>GITA is a web service that allows you to share text between your different devices using a single code.</p>
                 </div>
             </article>
         </a>

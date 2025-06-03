@@ -1,5 +1,5 @@
 header {
-    padding-top: 10vh;
+    padding-top: 5vh;
     width: 100vw;
     padding-bottom: 10vh;
 }
@@ -23,9 +23,14 @@ header {
     font-weight: normal;
     color: gray;
 }
+/* 5+10+16+4+1.5=36.5 */
 
 main {
     width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 h2 {
@@ -68,3 +73,7 @@ article:hover {
 .articleContent:hover {
     background: var(--bgh);
 }
+
+/* .articleLink {
+    margin-top: 5vh;
+} */
