@@ -15,14 +15,14 @@
     <meta name="author" content="MagicTINTIN">
     <meta property="og:site_name" content="0xy.fr">
     <meta name="description"
-        content="Turns your text upside down.">
+        content="Turns your text upside uʍop.">
 
     <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Upside down">
+    <meta property="og:title" content="Upside uʍop">
     <meta property="og:description"
-        content="Turns your text upside down.">
+        content="Turns your text upside uʍop.">
 
     <meta property="og:image" content="https://0xy.fr/images/favicon.png">
     <meta property="og:image:type" content="image/png">
