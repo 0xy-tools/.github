@@ -1,6 +1,7 @@
 :root {
     --m: #fe8420;
     --mv:#814710;
+    --md:#6e3c0c;
     --mt:#151215;
     --r: #FE3420;
     --rv: #FF7769;
@@ -8,10 +9,12 @@
     --g: #CEFE20;
     --gv: #DCFF69;
     --b: #207DFE;
+    --bd: #0f3870;
     --bt: #121415;
     --bv: #4572B1;
     --be: #4572B1;
     --o: #fe8020;
+    --od:#69360e;
     --ot: #151412;
     --ov: #FFA969;
     --y: #FEC220;
@@ -424,14 +427,56 @@ section {
     border-radius: 15px;
 }
 
+.blue {
+    border-color: var(--b);
+    /* background-color: #E1ECFF; */
+    background-color: var(--bg);
+    box-shadow: 0px 0px 5px inset var(--b), 0px 0px 5px var(--b);
+}
+
 .orange {
+    border-color: var(--o);
+    /* background-color: #FFEDE1; */
+    background-color: var(--bg);
+    box-shadow: 0px 0px 5px inset var(--o), 0px 0px 5px var(--o);
+}
+
+.pink {
     border-color: var(--m);
     /* background-color: #FFEDE1; */
     background-color: var(--bg);
     box-shadow: 0px 0px 5px inset var(--m), 0px 0px 5px var(--m);
 }
 
+.blue:focus {
+    border-color: var(--b);
+    background-color: var(--bt);
+    box-shadow: 0px 0px 20px inset var(--b), 0px 0px 20px var(--b);
+}
+
+.blue::selection {
+  background: var(--bd);
+}
+
+.blue::-moz-selection {
+  background: var(--bd);
+}
+
 .orange:focus {
+    border-color: var(--o);
+    background-color: var(--ot);
+    box-shadow: 0px 0px 20px inset var(--o), 0px 0px 20px var(--o);
+}
+
+.orange::selection {
+  background: var(--od);
+}
+
+.orange::-moz-selection {
+  background: var(--od);
+}
+
+.pink:focus {
     border-color: var(--m);
     background-color: var(--mt);
     box-shadow: 0px 0px 20px inset var(--m), 0px 0px 20px var(--m);
@@ -476,12 +521,4 @@ section {
 
 ::-webkit-scrollbar-thumb:active {
     background-color: var(--fgv);
-}
-
-::selection{
-  background: var(--md);
-}
-
-::-moz-selection{
-  background: var(--md);
 }
